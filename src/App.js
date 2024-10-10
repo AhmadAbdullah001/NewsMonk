@@ -20,37 +20,37 @@ export default class App extends Component {
     {
       path: "/Entertainment",
       element: (
-        <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"entertainment"} />
+        <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"entertainment"} />
       ),
     },
     {
       path: "/",
-      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"business"} />,
+      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"business"} />,
     },
     {
       path: "/Business",
-      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"business"} />,
+      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"business"} />,
     },
     {
       path: "/General",
-      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"general"} />,
+      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"general"} />,
     },
     {
       path: "/Health",
-      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"health"} />,
+      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"health"} />,
     },
     {
       path: "/Science",
-      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"science"} />,
+      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"science"} />,
     },
     {
       path: "/Sports",
-      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"sports"} />,
+      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"sports"} />,
     },
     {
       path: "/Technology",
       element: (
-        <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"technology"} />
+        <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"technology"} />
       ),
     },
     {
@@ -59,7 +59,7 @@ export default class App extends Component {
     },
     {
       path: "/Home",
-      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"in"} Category={"business"} />,
+      element: <News SetProgress={this.SetProgress} PageSize={pageSize} country={"us"} Category={"business"} />,
     },
   ];
 
